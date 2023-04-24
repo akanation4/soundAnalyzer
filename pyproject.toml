@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sound-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["akanation4 <103402576+akanation4@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "sound_analyzer"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyaudio = "^0.2.13"
+questionary = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
