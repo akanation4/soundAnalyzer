@@ -175,8 +175,9 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
-# Sound files
+# Data files
 wav/
+png/
 
 # Zone.Identifier
 Zone.Identifier
